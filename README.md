@@ -1,13 +1,16 @@
 # R_Data_Analytics Project
 
-Multi-class classification modeling using companies financial dataset.
+Data Cleaning Transformation and Statistical Analytics for Parent Child Behaviour Reseach Project 
 
 ## Objective
-* Based on the datasets provided , using the data points from multiple datasets to form a single dataset ( here namely Pilot_modified_data_1.csv & Complete_Data_Modified.csv ) by performing data cleaning and data transformation . Using the data generated , gain necessary statistical insights for the data 
+* Based on the datasets provided , using the data points from multiple datasets to form a single dataset ( here namely   Complete_Data_Modified.csv ) by performing data cleaning and data transformation . Using the data generated , gain necessary statistical insights for further use by domain experts .
 
 ## Scope 
 
-* Generate the following insights :
+Data Cleaning and transformation performed as per the needed instructions present in the files "Big Five Inventory (BFI)" , "Emotional Intelligence Appraisal - scoring" , "PANAS C- Scoring" , "Parental Authority Questionnaire (PAQ) - original" , "Child Behavior Checklist for Ages 6-18 (CBCL)"  .
+
+
+* Generate the following insights (On Complete_Data_Modified ):
 
 0. Reliability testing using Cronbach (Already Done )
 1. Correlation analysis using   Correlation matrix
