@@ -3,54 +3,58 @@
 Data Cleaning Transformation and Statistical Analytics for Parent Child Behaviour Reseach Project 
 
 ## Objective
+
 * Based on the datasets provided , using the data points from multiple datasets to form a single dataset ( here namely   Complete_Data_Modified.csv ) by performing data cleaning and data transformation . Using the data generated , gain necessary statistical insights for further use by domain experts .
 
 ## Scope 
 
-Data Cleaning and transformation performed as per the needed instructions present in the files "Big Five Inventory (BFI)" , "Emotional Intelligence Appraisal - scoring" , "PANAS C- Scoring" , "Parental Authority Questionnaire (PAQ) - original" , "Child Behavior Checklist for Ages 6-18 (CBCL)"  .
+* Data Cleaning and transformation performed as per the needed instructions present in the files "Big Five Inventory (BFI)" , "Emotional Intelligence Appraisal - scoring" , "PANAS C- Scoring" , "Parental Authority Questionnaire (PAQ) - original" , "Child Behavior Checklist for Ages 6-18 (CBCL)"  .
 
 
 * Generate the following insights (On Complete_Data_Modified ):
 
 0. Reliability testing using Cronbach (Already Done )
 1. Correlation analysis using   Correlation matrix
-2. Correlation analysis using  Yates's chi-squared test
+2. Yates's chi-squared test
 3. Histogram 
 4. Normality Tests
    A. Kolmogrov-Smirnov
    B. Shapiro-Wilk
-5. Mediation analysis
-    A. Test Cases Using Libraries "bda", "mediation", "multilevel", "gvlma"
-    B. On Full data using bda analysis
-    C. On Full data using mediation analysis   
+5. Mediation analysis  
 6. Regression analysis 
-    A. Using plspm library
-    B. Bootstrapping applied
+    A. Test Cases based on linear regression 
+    B. Test Cases based on non-linear regression
 7. Bootstrapping 
-8. Factor analysis  
+8. Factor analysis  (Performed on Spss software )
+    A. Exploratory Factor Analysis
+    B. Confirmatory Factor Analysis
 
 ## Plan
 ### Plan of Action :
-* Pefrom initial data cleaning to generate the one complete dataset from the survey responses .
+* Pefrom initial data cleaning to generate the one complete dataset from (multiple) survey response files based on instructions provided.
 * Genrate initial EDA for better understanding of the data 
 * Generate the required statistical insights as listed in "Scope"
 
 ## Data Acquisition & Understanding
-* The original or raw dataset that was provided is
-  -PANAS_C.csv
-  -Parental_Authority_Questionnaire.csv
-  -Emotional_Intelligence.csv
-  -3-parents&children.csv
-  -BigFiveCompute.csv
+* Multiple datasets ( in .csv format ) was provided containing survey responses of participants [These datasets contain personal information and as such cannot be shared ]
 
-* "Complete_Data_Modified.csv" Contains the final dataset  produced after data cleaning and transformation 
+* The original or raw datasets that was provided is then modified and transformed based on the instructions of the following files 
+  -Big Five Inventory (BFI)
+  -Emotional Intelligence Appraisal - scoring
+  -PANAS C- Scoring
+  -Parental Authority Questionnaire (PAQ) - original
+  -Child Behavior Checklist for Ages 6-18 (CBCL)
+
+* "Complete_Data_Modified.csv" - The final dataset  produced after data cleaning and transformation as per instructions provided 
 
 
 ### Data Exploration
-* #TODO: write about the final EDA outcome
-* Code File - Histogram.ipynb  [Purpose- Contains Graphical representations of the variables and the histograms that they generate i.e 'Complete_Data_Modified.csv' ]
-* Code File - Correlation_Matrix.ipynb [Purpose- Contains Correlation Matirxs of the variables and the histograms that they generate i.e 'Complete_Data_Modified.csv' ]
-* 
+
+
+* Code File - Correlation_Matrix - JupyterLab.pdf [Purpose- Contains Correlation Matirxs of the variables and the histograms that they generate ( works on 'Complete_Data_Modified.csv' ) ]
+* Code File - Histogram - JupyterLab.pdf  [Purpose- Contains Graphical representations of the variables and the histograms that they generate ( works on 'Complete_Data_Modified.csv' ) ]
+* Code File - Chi-Sq Test- JupyterLab.pdf [Purpose- The code performs Yates's Chi-Squared test to examine the independence of two categorical variables . Chi-Squared tests are part of EDA when analyzing the relationship between categorical variables ( works on 'Complete_Data_Modified.csv' ) ]
+* Code File - Normality_Test- JupyterLab.pdf [Purpose- The code performs normality tests on various columns of a dataset using two statistical tests: Shapiro-Wilk and Kolmogorov-Smirnov ,  helping to understand the underlying distribution of data, which is crucial before performing further statistical analyses. ( works on 'Complete_Data_Modified.csv' )]
 
 ## Tasks and Results :: 
 
