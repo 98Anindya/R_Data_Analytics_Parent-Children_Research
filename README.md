@@ -11,7 +11,7 @@ Data Cleaning Transformation and Statistical Analytics for Parent Child Behaviou
 * Data Cleaning and transformation performed as per the needed instructions present in the files "Big Five Inventory (BFI)" , "Emotional Intelligence Appraisal - scoring" , "PANAS C- Scoring" , "Parental Authority Questionnaire (PAQ) - original" , "Child Behavior Checklist for Ages 6-18 (CBCL)"  .
 
 
-* Generate the following insights [ On Complete_Data_Modified ]:
+* Generate the following insights [ **On Complete_Data_Modified.csv** ]:
 
 0. Reliability testing using Cronbach (Already Done )
 1. Correlation analysis using   Correlation matrix
