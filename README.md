@@ -51,10 +51,10 @@ Data Cleaning Transformation and Statistical Analytics for Parent Child Behaviou
 ### Data Exploration
 
 
-* Code File - Correlation_Matrix - JupyterLab.pdf [Purpose- Contains Correlation Matirxs of the variables and the histograms that they generate ( works on 'Complete_Data_Modified.csv' ) ]
-* Code File - Histogram - JupyterLab.pdf  [Purpose- Contains Graphical representations of the variables and the histograms that they generate ( works on 'Complete_Data_Modified.csv' ) ]
-* Code File - Chi-Sq Test- JupyterLab.pdf [Purpose- The code performs Yates's Chi-Squared test to examine the independence of two categorical variables . Chi-Squared tests are part of EDA when analyzing the relationship between categorical variables ( works on 'Complete_Data_Modified.csv' ) ]
-* Code File - Normality_Test- JupyterLab.pdf [Purpose- The code performs normality tests on various columns of a dataset using two statistical tests: Shapiro-Wilk and Kolmogorov-Smirnov ,  helping to understand the underlying distribution of data, which is crucial before performing further statistical analyses. ( works on 'Complete_Data_Modified.csv' )]
+* **Code File** - Correlation_Matrix - JupyterLab.pdf [Purpose- Contains Correlation Matirxs of the variables and the histograms that they generate ( works on 'Complete_Data_Modified.csv' ) ]
+* **Code File** - Histogram - JupyterLab.pdf  [Purpose- Contains Graphical representations of the variables and the histograms that they generate ( works on 'Complete_Data_Modified.csv' ) ]
+* **Code File** - Chi-Sq Test- JupyterLab.pdf [Purpose- The code performs Yates's Chi-Squared test to examine the independence of two categorical variables . Chi-Squared tests are part of EDA when analyzing the relationship between categorical variables ( works on 'Complete_Data_Modified.csv' ) ]
+* **Code File** - Normality_Test- JupyterLab.pdf [Purpose- The code performs normality tests on various columns of a dataset using two statistical tests: Shapiro-Wilk and Kolmogorov-Smirnov ,  helping to understand the underlying distribution of data, which is crucial before performing further statistical analyses. ( works on 'Complete_Data_Modified.csv' )]
 
 ## Tasks and Results :: 
 
