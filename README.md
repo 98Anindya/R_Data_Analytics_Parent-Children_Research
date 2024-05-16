@@ -48,36 +48,32 @@ Data Cleaning Transformation and Statistical Analytics for Parent Child Behaviou
 * "Complete_Data_Modified.csv" - The final dataset  produced after data cleaning and transformation as per instructions provided 
 
 
-### Data Exploration
+## Tasks and Results :: 
 
+### Data Cleaning 
+
+*
+
+### Data Exploration
 
 * **Code File** - Correlation_Matrix - JupyterLab.pdf [Purpose- Contains Correlation Matirxs of the variables and the histograms that they generate ( works on 'Complete_Data_Modified.csv' ) ]
 * **Code File** - Histogram - JupyterLab.pdf  [Purpose- Contains Graphical representations of the variables and the histograms that they generate ( works on 'Complete_Data_Modified.csv' ) ]
 * **Code File** - Chi-Sq Test- JupyterLab.pdf [Purpose- The code performs Yates's Chi-Squared test to examine the independence of two categorical variables . Chi-Squared tests are part of EDA when analyzing the relationship between categorical variables ( works on 'Complete_Data_Modified.csv' ) ]
 * **Code File** - Normality_Test- JupyterLab.pdf [Purpose- The code performs normality tests on various columns of a dataset using two statistical tests: Shapiro-Wilk and Kolmogorov-Smirnov ,  helping to understand the underlying distribution of data, which is crucial before performing further statistical analyses. ( works on 'Complete_Data_Modified.csv' )]
 
-## Tasks and Results :: 
-
-### Data Cleaning 
-1. 
 
 ### Analytical Procedures
-0. Reliability testing using Cronbach (Already Done )
-1. Correlation analysis using   Correlation matrix
-2. Correlation analysis using  Yates's chi-squared test
-3. Histogram 
-4. Normality Tests
-   A. Kolmogrov-Smirnov
-   B. Shapiro-Wilk
-5. Mediation analysis
-    A. Test Cases Using Libraries "bda", "mediation", "multilevel", "gvlma"
-    B. On Full data using bda analysis
-    C. On Full data using mediation analysis   
-6. Regression analysis 
-    A. Using plspm library
-    B. Bootstrapping applied
-7. Bootstrapping 
-8. Factor analysis 
+
+* Regression Analysis
+  A. **Code File** - Regression_Linear (6) - JupyterLab.pdf ( works on 'Complete_Data_Modified.csv' )]
+  B. **Code File** - Regression_Linear (6)_1- JupyterLab.pdf ( works on 'Complete_Data_Modified.csv' )]
+  C. **Code File** - Regression_Linear (6)_2 - JupyterLab.pdf ( works on 'Complete_Data_Modified.csv' )]
+  [Note :: All files provide detailed GLM model summaries and star ratings for the significance of the regression coefficients. Regression_Linear (6) - JupyterLab.pdf fits Poisson GLM models. Other two files , fits binomial GLM models ( works on 'Complete_Data_Modified.csv' ) ]
+
+  D. **Code File** - Regression_Non_Linear (6)_3- JupyterLab.pdf
+  E. **Code File** - Regression_Non_Linear (6)_4 - JupyterLab.pdf
+  
+  
 
 ### Notes
 
