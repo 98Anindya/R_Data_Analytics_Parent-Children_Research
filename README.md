@@ -60,20 +60,24 @@ Data Cleaning Transformation and Statistical Analytics for Parent Child Behaviou
 * **Code File** - Histogram - JupyterLab.pdf  [Purpose- Contains Graphical representations of the variables and the histograms that they generate ( works on 'Complete_Data_Modified.csv' ) ]
 * **Code File** - Chi-Sq Test- JupyterLab.pdf [Purpose- The code performs Yates's Chi-Squared test to examine the independence of two categorical variables . Chi-Squared tests are part of EDA when analyzing the relationship between categorical variables ( works on 'Complete_Data_Modified.csv' ) ]
 * **Code File** - Normality_Test- JupyterLab.pdf [Purpose- The code performs normality tests on various columns of a dataset using two statistical tests: Shapiro-Wilk and Kolmogorov-Smirnov ,  helping to understand the underlying distribution of data, which is crucial before performing further statistical analyses. ( works on 'Complete_Data_Modified.csv' )]
+* **Code File** - Reliability_Test_Cronbach- JupyterLab.pdf [Purpose- This code is designed to perform reliability analysis using Cronbach's alpha on a dataset. Cronbach's alpha is a measure of internal consistency, indicating how closely related a set of items are as a group. ( works on 'Complete_Data_Modified.csv' ) ]
 
 
 ### Analytical Procedures
 
+* Mediation Analysis - **Code File** - Mediation_Analysis - JupyterLab.pdf [works on performing mediation analysis using the "bda" library. It loops through combinations of independent, dependent, and mediator variables to perform the Sobel test , Aroian test , Goodman test and display the results.]
+  
+
 * Regression Analysis
-  1. **Code File** - Regression_Linear (6) - JupyterLab.pdf ( works on 'Complete_Data_Modified.csv' )]
-  2. **Code File** - Regression_Linear (6)_1- JupyterLab.pdf ( works on 'Complete_Data_Modified.csv' )]
-  3. **Code File** - Regression_Linear (6)_2 - JupyterLab.pdf ( works on 'Complete_Data_Modified.csv' )] <br />  
-[Note :: All files provide detailed GLM model summaries and star ratings for the significance of the regression coefficients. Regression_Linear (6) - JupyterLab.pdf fits Poisson GLM models. Other two files , fits binomial GLM models ( works on 'Complete_Data_Modified.csv' ) ]
+  1. **Code File** - Regression_Linear (6) - JupyterLab.pdf 
+  2. **Code File** - Regression_Linear (6)_1- JupyterLab.pdf 
+  3. **Code File** - Regression_Linear (6)_2 - JupyterLab.pdf  <br />  
+[Note :: All files provide detailed GLM model summaries and star ratings for the significance of the regression coefficients. Regression_Linear (6) - JupyterLab.pdf fits Poisson GLM models. Other two files , fits binomial GLM models. ( works on 'Complete_Data_Modified.csv' ) ]  <br />  
   4. **Code File** - Regression_Linear (6)_3- JupyterLab.pdf [Uses linear regression (lm function) to model the relationship between variables. It loops through combinations of independent, dependent, and mediator variables to fit multiple linear regression models.( works on 'Complete_Data_Modified.csv' )]
   5. **Code File** - Regression_Non_Linear (6)_4 - JupyterLab.pdf [Uses nonlinear regression (nls function) to model the relationship between variables. It fits a single nonlinear model with predefined initial parameters and displays the results.( works on 'Complete_Data_Modified.csv' )]
   
   
 
 ### Notes
-
-*
+* Bootstrapping code has not been attached as of now 
+* Factor analysis (EFA and CFA was performed on a software , SPSS , to better suit the needs of the domain expert )
