@@ -4,14 +4,14 @@ Data Cleaning Transformation and Statistical Analytics for Parent Child Behaviou
 
 ## Objective
 
-* Based on the datasets provided , using the data points from multiple datasets to form a single dataset ( here namely   Complete_Data_Modified.csv ) by performing data cleaning and data transformation . Using the data generated , gain necessary statistical insights for further use by domain experts .
+* Based on the datasets provided , using the data points from multiple datasets to form a single dataset ( here namely   Complete_Data_Modified.csv ) by performing data cleaning and data transformation . Using the data file generated , gain necessary statistical insights for further use by domain experts .
 
 ## Scope 
 
 * Data Cleaning and transformation performed as per the needed instructions present in the files "Big Five Inventory (BFI)" , "Emotional Intelligence Appraisal - scoring" , "PANAS C- Scoring" , "Parental Authority Questionnaire (PAQ) - original" , "Child Behavior Checklist for Ages 6-18 (CBCL)"  .
 
 
-* Generate the following insights (On Complete_Data_Modified ):
+* Generate the following insights [ On Complete_Data_Modified ]:
 
 0. Reliability testing using Cronbach (Already Done )
 1. Correlation analysis using   Correlation matrix
@@ -24,7 +24,7 @@ Data Cleaning Transformation and Statistical Analytics for Parent Child Behaviou
 6. Regression analysis 
     A. Test Cases based on linear regression 
     B. Test Cases based on non-linear regression
-7. Bootstrapping 
+7. Bootstrapping & K-fold Cross Validation
 8. Factor analysis  (Performed on Spss software )
     A. Exploratory Factor Analysis
     B. Confirmatory Factor Analysis
@@ -52,8 +52,16 @@ Data Cleaning Transformation and Statistical Analytics for Parent Child Behaviou
 
 ### Data Cleaning 
 
-*
-
+* **Code Files**
+   1. CSV3.R
+   2. CSV3_2.R
+   3. CSV3_3.R
+   4. CSV3_4.R
+   5. Final.R
+   6. Final_Data_Clean.R
+ <br /> 
+[Note :: The above R script files provided perform various data processing and analysis tasks on a dataset related to parenting, children's behavior, and psychological assessments. Each file reads data from a CSV file, processes it according to specific criteria, and generates a new CSV file with the processed data.]
+      
 ### Data Exploration
 
 * **Code File** - Correlation_Matrix - JupyterLab.pdf [Purpose- Contains Correlation Matirxs of the variables and the histograms that they generate ( works on 'Complete_Data_Modified.csv' ) ]
