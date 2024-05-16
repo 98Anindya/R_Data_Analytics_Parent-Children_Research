@@ -68,9 +68,6 @@ Data Cleaning Transformation and Statistical Analytics for Parent Child Behaviou
   1. **Code File** - Regression_Linear (6) - JupyterLab.pdf ( works on 'Complete_Data_Modified.csv' )]
   2. **Code File** - Regression_Linear (6)_1- JupyterLab.pdf ( works on 'Complete_Data_Modified.csv' )]
   3. **Code File** - Regression_Linear (6)_2 - JupyterLab.pdf ( works on 'Complete_Data_Modified.csv' )]
- <br />  
-[Note :: All files provide detailed GLM model summaries and star ratings for the significance of the regression coefficients. Regression_Linear (6) - JupyterLab.pdf fits Poisson GLM models. Other two files , fits binomial GLM models ( works on 'Complete_Data_Modified.csv' ) ]
-
   4. **Code File** - Regression_Linear (6)_3- JupyterLab.pdf [Uses linear regression (lm function) to model the relationship between variables. It loops through combinations of independent, dependent, and mediator variables to fit multiple linear regression models.( works on 'Complete_Data_Modified.csv' )]
   5. **Code File** - Regression_Non_Linear (6)_4 - JupyterLab.pdf [Uses nonlinear regression (nls function) to model the relationship between variables. It fits a single nonlinear model with predefined initial parameters and displays the results.( works on 'Complete_Data_Modified.csv' )]
   
